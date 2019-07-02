@@ -4,8 +4,8 @@ This is a [SKOS](https://www.w3.org/TR/skos-reference/) representation of the Au
 See the source document (the PDF listed below) for more information about the vocabulary's content.
 
 ## Repository Contents
-* [lgdc.ttl](lgdc.ttl) - final vocabulary file (RDF, turtle encoding)
-* [lgdc-raw.ttl](lgdcraw.ttl) - initial RDF, as produced in the vocab.xlsx file
+* [lgpc.ttl](lgpc.ttl) - final vocabulary file (RDF, turtle encoding)
+* [lgpc-raw.ttl](lgpc-raw.ttl) - initial RDF, as produced in the vocab.xlsx file
 * [vocab.xlsx](vocab.xlsx) - Excel file used for the manual transcription of terms from the LGPC's presentation in the PDF document, 5514055002_2008.pdf
 * [5514055002_2008.pdf](5514055002_2008.pdf) - source file for the LGPC's content, downloaded from <https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/5514.0.55.0022008?OpenDocument>
 
