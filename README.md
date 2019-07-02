@@ -1,14 +1,17 @@
 # Local Government Purpose Classification in SKOS
-This is a SKOS representation of the Australian Bureau of Statistics (ABS)'s Local Government Purpose Classification (LGPC) for use in the collection, analysis and dissemination of local government finance statistics in Australia.
+This is a [SKOS](https://www.w3.org/TR/skos-reference/) representation of the Australian Bureau of Statistics (ABS)'s Local Government Purpose Classification (LGPC) for use in the collection, analysis and dissemination of local government finance statistics in Australia.
 
 See the source document (the PDF listed below) for more information about the vocabulary's content.
 
-
-# Repository Contents
+## Repository Contents
 * [lgdc.ttl](lgdc.ttl) - final vocabulary file (RDF, turtle encoding)
 * [lgdc-raw.ttl](lgdcraw.ttl) - initial RDF, as produced in the vocab.xlsx file
 * [vocab.xlsx](vocab.xlsx) - Excel file used for the manual transcription of terms from the LGPC's presentation in the PDF document, 5514055002_2008.pdf
 * [5514055002_2008.pdf](5514055002_2008.pdf) - source file for the LGPC's content, downloaded from <https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/5514.0.55.0022008?OpenDocument>
+
+
+## Purpose
+The establishment of this vocabulary as a SKOS-structured resource, was undertaken by the CSIRO (see *Contacts* below) to enable this vocabulary's use with other vocabularies within the [Longitudinal Spine of Government Functions](https://longspine.cat) project.
 
 
 ## Licensing
