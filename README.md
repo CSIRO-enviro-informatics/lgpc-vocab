@@ -21,7 +21,7 @@ This vocabulary's content is copyright the ABS, as per the notification in the s
 
 
 ## Contacts
-SKOS implementation creator:
+SKOS implementation creator:  
 **Nicholas Car**  
 *Senior Experimental Scientist*  
 CSIRO Land & Water, Environmental Informatics Group  
