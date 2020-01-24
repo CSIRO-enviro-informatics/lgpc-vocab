@@ -16,29 +16,41 @@
 <http://linked.data.gov.au/def/lgpc>
   a skos:ConceptScheme ;
   dc:source "This vocabulariy's content is taken directly from the ABS' publication 5514.0.55.002, Local Government Purpose Classification - Australia - 2008" ;
-  dct:contributor [
-      sdo:email <mailto:nicholas.car@csiro.au> ;
-      sdo:identifier <http://orcid.org/0000-0002-8742-7730> ;
-      sdo:name "Nicholas J. Car" ;
-    ] ;
+  dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
   dct:created "2019-07-02"^^xsd:date ;
-  dct:publisher [
-      sdo:identifier <http://catalogue.linked.data.gov.au/org/abs> ;
-      sdo:name "Australian Bureau of Statistics" ;
-    ] ;
+  dct:creator <http://linked.data.gov.au/dataset/agor/O-000928> ;
+  dct:publisher <http://linked.data.gov.au/dataset/agor/O-000928> ;
   rdfs:comment "This is a SKOS representation of the Australian Bureau of Statistics (ABS)'s Local Government Purpose Classification (LGPC) for use in the collection, analysis and dissemination of local government finance statistics in Australia.'" ;
-  rdfs:label "Local Government Purpose Classification"@en ;
+  dct:title "Local Government Purpose Classification"@en ;
+  dct:modified "2019-07-02"^^xsd:date ;
   rdfs:seeAlso <https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/5514.0.55.0022008?OpenDocument> ;
   owl:versionInfo "As per ABS source data, no additions" ;
-  skos:hasTopConcept <01> ;
-  skos:hasTopConcept <03> ;
-  skos:hasTopConcept <04> ;
-  skos:hasTopConcept <05> ;
-  skos:hasTopConcept <06> ;
-  skos:hasTopConcept <07> ;
-  skos:hasTopConcept <08> ;
-  skos:hasTopConcept <09> ;
-  skos:hasTopConcept <10> ;
+  skos:hasTopConcept 
+    <01> ,
+    <03> ,
+    <04> ,
+    <05> ,
+    <06> ,
+    <07> ,
+    <08> ,
+    <09> ,
+    <10> ;
+.
+<http://linked.data.gov.au/dataset/agor/O-000928>
+  a sdo:Organization ;
+  sdo:name "Australian Bureau of Statistics" ;
+  sdo:url <http://linked.data.gov.au/dataset/agor/O-000928> ;
+.
+<http://orcid.org/0000-0002-8742-7730>
+  a owl:NamedIndividual ;
+  a sdo:Person ;
+  sdo:email "nicholas.car@surroundaustralia.com" ;
+  sdo:identifier <http://orcid.org/0000-0002-8742-7730> ;
+  sdo:memberOf [
+      sdo:url <https://surroundaustralia.com> ;
+      sdo:name "SURROUND Australia Pty Ltd" ;
+    ] ;
+  sdo:name "Nicholas J. Car" ;
 .
 <01>
   a skos:Concept ;
